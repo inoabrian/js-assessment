@@ -4,7 +4,7 @@ module.exports = {
         "node": true
     },
     "globals": {
-      "exports": false,
+      "exports": true,
     },
     "extends": "eslint:recommended",
     "rules": {
@@ -48,7 +48,7 @@ module.exports = {
         "handle-callback-err": "error",
         "id-blacklist": "error",
         "id-match": "error",
-        "indent": [ "error", 2 ],
+        "indent": [ 6 ],
         "jsx-quotes": "error",
         "key-spacing": [
           "error", {
@@ -59,6 +59,7 @@ module.exports = {
         "keyword-spacing": "error",
         "linebreak-style": [
             "error",
+            "windows",
             "unix"
         ],
         "lines-around-comment": "error",
